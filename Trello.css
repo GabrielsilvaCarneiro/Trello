@@ -1,0 +1,128 @@
+* {
+ padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Bold.ttf);
+}
+
+li {
+    font-family: 'Roboto';
+}
+
+body {
+    
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.coluna {
+    background-color: #000000;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    width: 300px;
+    padding: 3px;
+    color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.coluna h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    
+}
+
+ul.tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.tarefa {
+    background-color: #000000;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.tarefa-arrastando {
+    opacity: 0.5;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+
+label {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto';
+
+}
+
+button:hover {
+    background-color: #fff200;
+}
+
+.container {
+    background-color: #fbff0000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid #000000;
+    backdrop-filter: blur(10px);
+}
+
